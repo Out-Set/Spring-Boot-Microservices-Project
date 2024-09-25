@@ -1,0 +1,5 @@
+#Docker
+# Ignore MySQL data directories
+product-service/data/
+inventory-service/docker/mysql/data/
+order-service/docker/mysql/
