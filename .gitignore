@@ -3,3 +3,10 @@
 product-service/data/
 inventory-service/docker/mysql/data/
 order-service/docker/mysql/
+
+# Ignore MySQL data directory
+api-gateway/volume-data/mysql_keycloak_data/
+
+# Alternatively, if you want to be more specific:
+api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/
+api-gateway/volume-data/mysql_keycloak_data/#ib_*.dblwr
